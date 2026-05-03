@@ -51,7 +51,7 @@ app.use((_req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`🚀 NUST PDF Library API running on http://localhost:${port}`);
+  console.log(` NUST PDF Library API running on http://localhost:${port}`);
 });
 
 export default app;
